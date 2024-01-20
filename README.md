@@ -9,6 +9,8 @@ This tool can read Boolean functions from BLIF files. The constructed AIGs is wr
 ASCII AIGER format (.aag). Java is the main language. To transfer it to the binary AIGer 
 format (.aig file), which can be read directly by tool **ABC**, AIGer tool **aigtoaig** can be used.
 
+## Result
+This tool can implement the transistion for the BLIF file in [blif-benchmarks](lowlevel_framework/benchmarks/blif-benchmarks/blif-example).
 ## Test
 To evaluate the implementation, an equivalence check of the input BLIF files and the resulting AIGs shall be performed with ABC.
 Furthermore, the number of nodes in the AIGs shall be evaluated.
